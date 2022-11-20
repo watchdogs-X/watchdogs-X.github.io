@@ -46,9 +46,9 @@
     <link href="http://example.com/2022/11/18/test/"/>
     <id>http://example.com/2022/11/18/test/</id>
     <published>2022-11-18T02:46:00.000Z</published>
-    <updated>2022-11-20T10:57:10.289Z</updated>
+    <updated>2022-11-20T15:20:33.965Z</updated>
     
-    <content type="html"><![CDATA[<p>代码测试</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;hello world.&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这是<a href="https://cdn.jsdelivr.net/gh/watchdogs-X/hexo_img/202211201849126.jpg">图片</a></p><p>这是链接<a href="https://cdn.jsdelivr.net/gh/watchdogs-X/hexo_img/202211201849126.jpg">https://cdn.jsdelivr.net/gh/watchdogs-X/hexo_img/202211201849126.jpg</a></p><p>查看图片</p><div class="hide-block"><button type="button" class="hide-button" style="">查看图片    </button><div class="hide-content"><p><img src="https://cdn.jsdelivr.net/gh/watchdogs-X/hexo_img/202211201849126.jpg"></p></div></div>]]></content>
+    <content type="html"><![CDATA[<p>代码测试</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;hello world.&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这是<a href="https://s1.vika.cn/space/2022/11/20/7b326b3a890f46d89d4fff375a30d255">图片</a></p><p>这是链接<a href="https://cdn.jsdelivr.net/gh/watchdogs-X/hexo_img/202211201849126.jpg">https://cdn.jsdelivr.net/gh/watchdogs-X/hexo_img/202211201849126.jpg</a></p><p>查看图片</p><div class="hide-block"><button type="button" class="hide-button" style="">查看图片    </button><div class="hide-content"><p><img src="https://s1.vika.cn/space/2022/11/20/7b326b3a890f46d89d4fff375a30d255"></p></div></div>]]></content>
     
     
       
@@ -118,7 +118,7 @@
     <link href="http://example.com/2022/11/13/hello-world/"/>
     <id>http://example.com/2022/11/13/hello-world/</id>
     <published>2022-11-12T16:00:00.000Z</published>
-    <updated>2022-11-20T10:46:31.477Z</updated>
+    <updated>2022-11-20T15:20:33.981Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -132,8 +132,6 @@
     
     <category term="你好世界" scheme="http://example.com/categories/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/"/>
     
-    
-    <category term="开始" scheme="http://example.com/tags/%E5%BC%80%E5%A7%8B/"/>
     
   </entry>
   
