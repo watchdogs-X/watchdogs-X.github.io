@@ -135,10 +135,6 @@ button#go-up:hover #percent {
     display: flex;
     flex-wrap:nowrap;
 }
-/*导航栏下划线*/
-#nav *::after{
-    background-color: transparent!important;
-}
 
 /*导航栏子菜单横向布局*/
 .menus_item_child li:not(#sidebar-menus li){
