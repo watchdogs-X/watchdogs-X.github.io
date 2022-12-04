@@ -1,0 +1,12 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/3dCard/in3d.css">
+<div id='libCategories'> <div id="lib-cards" class="container"> <a href='/categories/经验分享/'> <card data-image="https://p.zhheo.com/646d6131d4e522e7d700b4bb1d3cd21ccdceea02.png!cover"> <h1 slot="header">经验分享</h1> <p slot="content">原创内容或翻译内容，分享经验和想法，涵盖设计实践、设计理论、开发、软件及系统使用、教程等多个领域</p> </card> </a>
+<a href='/categories/翻译内容/'> <card data-image="https://p.zhheo.com/7HrCfl22390181609860203724.png!cover"> <h1 slot="header">翻译内容</h1> <p slot="content">国外优秀的经验和内容原创译文分享，消除语言隔阂，寻找最先锋最领先的设计思路和设计方法，或者是优秀的国外内容。</p> </card> </a>
+<a href='/categories/资源中心/'> <card data-image="https://p.zhheo.com/65002366767c3beb88ca679dbdbad7cf0eafbc09.png!cover"> <h1 slot="header">资源中心</h1> <p slot="content">汇聚市面上难以寻找的资源，尽可能不上传侵犯版权的文件资源，如有违规行为请联系作者禁用文章。资源仅供学习交流使用。</p> </card> </a>
+<a href='/categories/优质推荐/'> <card data-image="https://p.zhheo.com/32c1b437eaa5959f8bb3c530b8af7ac4fec2ee25.png!cover"> <h1 slot="header">优质推荐</h1> <p slot="content">优秀的网站、软件总是会被信息洪流所淹没。在这里我会推荐一些实用的网站、实用的软件。在这里一定可以发现你想要的宝藏。</p> </card> </a>
+<a href='/categories/佳作推荐/'> <card data-image="https://p.zhheo.com/2c6b63e7825b17a66f96c17eddd94207d5769333.png!cover"> <h1 slot="header">佳作推荐</h1> <p slot="content">优秀的设计作品总是令人叹为观止。在这里你能看到令人惊艳的设计作品。我会将优秀的设计作品都分享到这里。</p> </card> </a>
+<a href='/categories/自研工具/'> <card data-image="https://p.zhheo.com/d13ef73a69791b50af0dfc077002dc29aaad1158.png!cover"> <h1 slot="header">自研工具</h1> <p slot="content">从初中的时候我就是一个开发者，当时主要做一款Wwrite的写作工具。梦的起点开始了，或许未来，我也会成为一个开发者。</p> </card> </a>
+<a href='/categories/闲聊杂谈/'> <card data-image="https://p.zhheo.com/0f1b9b72790b264f8b23d2c13b1f8718f873b209.png!cover"> <h1 slot="header">闲聊杂谈</h1> <p slot="content">表达一些当时的想法，算是一个公开的类似日记的事物吧。不过不常更新。分享生活，分享经历和状态。</p> </card> </a>
+<a href='/categories/转载内容/'> <card data-image="https://p.zhheo.com/a092ad95cddf1006c6b26ee2bfc0ea2027881b47.png!cover"> <h1 slot="header">转载内容</h1> <p slot="content">只是防止原作者站挂掉或者内容被删除所做的备份，建议访客点击访问原文进行阅读。原文地址放在文章最顶部。</p> </card> </a> </div> </div>
+<div class='js-pjax'>
+<script src='https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/2.6.14/vue.min.js'></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/3dCard/in3d.js"></script> </div>
