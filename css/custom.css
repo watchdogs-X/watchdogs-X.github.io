@@ -1,10 +1,12 @@
-
-
+/*全局全局灰色灰色
 html {
     filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
     -webkit-filter: grayscale(100%);
 }
-
+ */
+ 
+ 
+ 
 /* 颜色 */
 :root {
   --anzhiyu-theme-op: #4259ef23;
