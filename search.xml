@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>关于vscode如何运行C代码</title>
+      <link href="/2022/12/22/vscode_install/"/>
+      <url>/2022/12/22/vscode_install/</url>
+      
+        <content type="html"><![CDATA[<div class="note info modern"><p><strong>本篇是为了防止我以后时间长忘记当时的我是如何配置做的简单记录。</strong></p></div><h2 id="一、配置GCC"><a href="#一、配置GCC" class="headerlink" title="一、配置GCC"></a>一、配置GCC</h2><h3 id="1、安装WinGW-W64并配置环境变量"><a href="#1、安装WinGW-W64并配置环境变量" class="headerlink" title="1、安装WinGW-W64并配置环境变量"></a>1、安装<strong>WinGW-W64</strong>并配置<strong>环境变量</strong></h3><h4 id="1、安装WinGW-W64。"><a href="#1、安装WinGW-W64。" class="headerlink" title="1、安装WinGW-W64。"></a>1、安装<strong>WinGW-W64</strong>。</h4><h4 id="MinGW官网-点击即可进入官网"><a href="#MinGW官网-点击即可进入官网" class="headerlink" title="MinGW官网 (点击即可进入官网)"></a><a href="https://osdn.net/projects/mingw/">MinGW官网</a> (点击即可进入官网)</h4><p><img src="https://s1.vika.cn/space/2022/12/22/7465b32b68484933ad0afb0e63ca1ba6"></p><p>直链 <a href="https://www.aliyundrive.com/s/p5d1Sq45cUq">mingw-w64-install.exe</a> 提取码: xy75</p><p><strong>ARrchitecture选择 x86_64 ,其余默认</strong></p><p><img src="https://s1.vika.cn/space/2022/12/22/17993b2242e949b7888d31d27f8cc221"></p><p><strong>安装目录自己看情况修改(能找到路径就行)</strong></p><p><img src="https://s1.vika.cn/space/2022/12/22/63561eb7e58445a0b53a6be114df5095"></p><p><strong>下一步等待安装完成，如果网络问题无法安装，可以去官网直接找压缩包自己手动解压</strong></p><h4 id="2、配置环境变量"><a href="#2、配置环境变量" class="headerlink" title="2、配置环境变量"></a>2、配置<strong>环境变量</strong></h4><p><strong>Window徽标键+X–&gt;高级系统设置–&gt;环境变量</strong></p><p>双击打开Path进行编辑</p><p><img src="https://s1.vika.cn/space/2022/12/22/ebcee07910d64b8cbf0b4a41a53a7b90"></p><p>点击<strong>新建</strong>，添加刚刚安装的MinGW64的<strong>bin</strong>目录。然后保存关闭。</p><p><img src="https://s1.vika.cn/space/2022/12/22/e7afe0b42e6845508698af44e3565cc9"></p><h4 id="3、检查配置是否成功"><a href="#3、检查配置是否成功" class="headerlink" title="3、检查配置是否成功"></a>3、检查配置是否成功</h4><p>Window徽标键+R –&gt; cmd</p><p>输入gcc -v</p><p><img src="https://s1.vika.cn/space/2022/12/22/da8300e2b734466b88498830bb861d1d"></p><p>如图出现框内内容即是正常安装，没有问题。</p><h2 id="二、安装Visual-Studio-Code。"><a href="#二、安装Visual-Studio-Code。" class="headerlink" title="二、安装Visual Studio Code。"></a>二、安装Visual Studio Code。</h2><p>官网链接在这：<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p><p><img src="https://s1.vika.cn/space/2022/12/22/20a9bfb4bc07415cb5e58664de532c0a"></p><p>无脑下一步即可（具体安装路径自己选择）</p><h3 id="2、安装中文显示。"><a href="#2、安装中文显示。" class="headerlink" title="2、安装中文显示。"></a>2、安装中文显示。</h3><p>如果首次打开vscode自动提示安装中文字体，请忽略此步。</p><p>若没有提示，先点击插件（或者快捷键 Ctrl+Shift+X），搜索<strong>Chinese</strong>。</p><p><img src="https://s1.vika.cn/space/2022/12/22/543c0f3ce8c841e292fa67f7c580ef5b"></p><p>找到第一个下载安装重启即可。</p><h3 id="3、安装插件-C-x2F-C-。"><a href="#3、安装插件-C-x2F-C-。" class="headerlink" title="3、安装插件**C&#x2F;C++**。"></a>3、安装插件**C&#x2F;C++**。</h3><p><img src="https://s1.vika.cn/space/2022/12/22/c03f16f264824c04aa527a0e723aec53"></p><h3 id="4、测试"><a href="#4、测试" class="headerlink" title="4、测试"></a>4、测试</h3><p>打开vscode随便写点代码保存，然后按F5</p><p>调试器选择<strong>C++(GDB&#x2F;LLDB)</strong></p><p><img src="https://s1.vika.cn/space/2022/12/22/3e993b2271074f879538f9ce8c3333d6"></p><p>调试配置选<strong>C&#x2F;C++:gcc.exe…..</strong></p><p><img src="https://s1.vika.cn/space/2022/12/22/5a61924937b54130b40da15bfc395a04"></p><p><strong>如果能正常运行就OK了</strong><br><img src="https://s1.vika.cn/space/2022/12/22/d971b1ca026644809e75a8111eb1a967"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C语言(第十章--对文件的输出)</title>
       <link href="/2022/12/20/c_language_10/"/>
       <url>/2022/12/20/c_language_10/</url>
